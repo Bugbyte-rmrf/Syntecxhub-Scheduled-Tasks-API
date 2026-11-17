@@ -1,0 +1,71 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Scheduled Tasks API",
+    "collectionId": "7a970b68-c1f5-4770-b91b-92abfcc5cb05",
+    "dateExported": "2026-11-17T15:14:10.434Z",
+    "version": "1.4",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "4cd50c84-a112-4b97-8265-028a9c845579",
+            "colId": "7a970b68-c1f5-4770-b91b-92abfcc5cb05",
+            "containerId": "",
+            "name": "http://localhost:3000/",
+            "url": "http://localhost:3000/",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2026-11-17T15:07:34.972Z",
+            "modified": "2026-11-17T15:07:34.972Z",
+            "headers": []
+        },
+        {
+            "_id": "cf6c2c80-baf8-4d2d-8ba4-9e650afbf02e",
+            "colId": "7a970b68-c1f5-4770-b91b-92abfcc5cb05",
+            "containerId": "",
+            "name": "List scheduled jobs",
+            "url": "http://localhost:3000/api/jobs",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2026-11-17T15:09:08.209Z",
+            "modified": "2026-11-17T15:09:08.209Z",
+            "headers": []
+        },
+        {
+            "_id": "9e0c3ed4-6ead-4ea1-9d45-f7a4c31d5730",
+            "colId": "7a970b68-c1f5-4770-b91b-92abfcc5cb05",
+            "containerId": "",
+            "name": "Run cleanup",
+            "url": "http://localhost:3000/api/jobs/deleteStaleRecords/run",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2026-11-17T15:11:06.238Z",
+            "modified": "2026-11-17T15:11:06.238Z",
+            "headers": []
+        },
+        {
+            "_id": "720bf4a0-7920-4115-9dec-a1de05482275",
+            "colId": "7a970b68-c1f5-4770-b91b-92abfcc5cb05",
+            "containerId": "",
+            "name": "Run email summary",
+            "url": "http://localhost:3000/api/jobs/sendEmailSummary/run",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2026-11-17T15:12:30.998Z",
+            "modified": "2026-11-17T15:12:30.998Z",
+            "headers": []
+        },
+        {
+            "_id": "98557fdb-d0cb-4ccb-a789-79f6e07df6f5",
+            "colId": "7a970b68-c1f5-4770-b91b-92abfcc5cb05",
+            "containerId": "",
+            "name": "View execution logs",
+            "url": "http://localhost:3000/api/logs",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2026-11-17T15:13:42.150Z",
+            "modified": "2026-11-17T15:13:42.150Z",
+            "headers": []
+        }
+    ],
+    "ref": "JjGabFOQN8iecHPSePwOwZUtKG77ex40youXI7EirBbRBui-alAu4XOfVWNaD_cqKfyrowFBePRp4GSEOzABzA"
+}

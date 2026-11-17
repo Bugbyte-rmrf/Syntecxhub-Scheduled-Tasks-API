@@ -1,0 +1,84 @@
+[
+  {
+    "jobName": "deleteStaleRecords",
+    "status": "success",
+    "startTime": "2026-11-17T15:05:00.009Z",
+    "endTime": "2026-11-17T15:05:00.043Z",
+    "result": {
+      "message": "Stale records cleanup completed",
+      "deletedCount": 2
+    }
+  },
+  {
+    "jobName": "deleteStaleRecords",
+    "status": "success",
+    "startTime": "2026-11-17T15:10:00.021Z",
+    "endTime": "2026-11-17T15:10:00.032Z",
+    "result": {
+      "message": "Stale records cleanup completed",
+      "deletedCount": 0
+    }
+  },
+  {
+    "jobName": "deleteStaleRecords",
+    "status": "success",
+    "startTime": "2026-11-17T15:10:32.315Z",
+    "endTime": "2026-11-17T15:10:32.322Z",
+    "result": {
+      "message": "Stale records cleanup completed",
+      "deletedCount": 0
+    }
+  },
+  {
+    "jobName": "sendEmailSummary",
+    "status": "success",
+    "startTime": "2026-11-17T15:12:07.548Z",
+    "endTime": "2026-11-17T15:12:07.557Z",
+    "result": {
+      "message": "Summary generated. Email not sent because SMTP is not configured.",
+      "totalRecords": 2,
+      "emailSent": false,
+      "summary": "\n    Daily System Summary\n\n    Date: 11/17/2026, 6:12:07 PM\n    Total active records: 2\n\n    This is your automated system summary.\n  "
+    }
+  },
+  {
+    "jobName": "deleteStaleRecords",
+    "status": "success",
+    "startTime": "2026-11-17T15:15:00.012Z",
+    "endTime": "2026-11-17T15:15:00.023Z",
+    "result": {
+      "message": "Stale records cleanup completed",
+      "deletedCount": 0
+    }
+  },
+  {
+    "jobName": "deleteStaleRecords",
+    "status": "success",
+    "startTime": "2026-11-17T15:20:00.017Z",
+    "endTime": "2026-11-17T15:20:00.031Z",
+    "result": {
+      "message": "Stale records cleanup completed",
+      "deletedCount": 0
+    }
+  },
+  {
+    "jobName": "deleteStaleRecords",
+    "status": "success",
+    "startTime": "2026-11-17T15:25:06.414Z",
+    "endTime": "2026-11-17T15:25:10.537Z",
+    "result": {
+      "message": "Stale records cleanup completed",
+      "deletedCount": 0
+    }
+  },
+  {
+    "jobName": "deleteStaleRecords",
+    "status": "success",
+    "startTime": "2026-11-17T15:30:00.018Z",
+    "endTime": "2026-11-17T15:30:00.029Z",
+    "result": {
+      "message": "Stale records cleanup completed",
+      "deletedCount": 0
+    }
+  }
+]
